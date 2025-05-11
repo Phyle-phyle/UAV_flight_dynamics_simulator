@@ -1,4 +1,4 @@
-readme: |
+
   # UAV Longitudinal Flight Dynamics Simulator
 
   This Python-based simulator models the **longitudinal flight dynamics** of fixed-wing UAVs using a **linear state-space approach**. It allows aerospace engineers, researchers, and students to study how elevator deflection affects the UAV’s dynamic behavior in terms of:
@@ -63,6 +63,11 @@ This tool can be used for:
 
 ### 1. Install Requirements
 
+```markdown
+### 1. Install Requirements
+
+Install the required Python packages using pip:
+
 ```bash
-pip install -r requirements.txt
+pip install numpy matplotlib scipy
 
