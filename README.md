@@ -39,8 +39,7 @@ readme: |
   - **Numerical Integration** using `scipy.solve_ivp` (Runge-Kutta 4(5))
 
   The UAV’s behavior is described by:
-  ```math
-  \dot{x} = A x + B u
+  ẋ = A·x + B·u
 
 Where **A** and **B** matrices are built from aerodynamic and inertial coefficients.
 
